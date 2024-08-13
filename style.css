@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 100%;
+   height: auto;
+   font-family: 'cookie'cursive;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   background-color: #ece7e8 ;
+   overflow: hidden;
+}
+.banner{
+    width: 100%;
+    height: 900px;
+    background-image: url(hebsi.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position: center;
+    display: flex;
+    justify-content: center ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 500px 0 0 0;
+    transition-duration:  .3s;
+
+    
+}
+.banner:hover{
+    transform: translateY(-5px);
+   
+}
+.text{
+    width: 100%;
+    position: relative;
+    top: 370px;
+    left: 20px;
+
+   
+    text-align: left;
+  
+}
+.text h1{
+    color: #f15;
+    text-shadow: 0 3px 10px rgba(0,0,0.5);
+    font-size:40px ;
+}
+   
+.text .date{
+    color: #fff;
+    background-color: #f15;
+    padding: 5px;
+    border-radius: 40px 0 40px 0;
+    transition-duration:  .5s;
+    font-size: 20px;
+}
+.text .date:hover{
+    background-color:black ;
+    color: white;
+}
+.text h1:hover{
+ 
+    color: white;
+}
+.invi{
+  display: flex;
+    height: 30px;
+    width: 100%;
+   justify-content: flex-end;
+    
+    color: rgb(34, 26, 26);
+    text-shadow: 0 3px 10px rgba(0,0,0.5);
+    font-size:40px ;
+    margin-top: 10px;
+}
+.party{
+    height: 400px;
+    width: 100%;
+    column-gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f15;
+  
+}
+.party:hover{
+    transform:translateX(-6px) ;
+}
+h1:hover{
+    color: white;
+}
+h2:hover{
+    color: white;
+}
